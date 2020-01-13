@@ -1,0 +1,65 @@
+
+:root{
+    --myfont:'Amiri', serif;
+}
+
+/* common */
+.btn:focus{outline: 0;}
+body{ direction: rtl; font-family: var(--myfont);}
+/* header */
+header { 
+    position: relative;
+    background: url(../images/imgs/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 90vh ; 
+}
+.adde3lan{
+    display: flex;
+    align-items: center;
+    padding: 15px 20px ; 
+}
+.adde3lan i{color: #fff;}
+.adde3lan .btn{color: #000; background: #fff; border: transparent;}
+header  .title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+header .title-desc{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* navbar */
+.navbar{
+    background-image: linear-gradient(to right, #fd7171 0%, #ff867a 0%, #ff8c7f 21%, #e95c4c 52%, #ec5541 70%, #e63720 100%);
+}
+.navbar .form-control { width: 37%;}
+
+
+/* main-menue */
+.main-menue{margin-top: 60px;}
+.main-menue .item{height: 100px; width: 100px; background: #000; }
+.main-menue .item i { color: #fff; padding: 32px;}
+.btn-group button{font-size: 10px;}
+.addnew i { color: #e63720;}
+.addnew .card-body{background: #efefef; border-radius:  0 0 18px 18px;}
+
+/* addnew */
+
+/* contact */
+.contact{
+    background: url(../images/imgs/subscribe.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* footer */
+.footitem{list-style: none; padding:   0;}
+.footitem li { padding: 3px 0; }
+.social-list{list-style: none; padding: 0; margin: auto;}
+.social-list li{display: inline-block; margin: 10px;}
+.social-list li i {color: #fff; transition: color ease-in-out .3s ; cursor: pointer;} 
+.social-list li i:hover {color:#ff8c7f ;}
+
+footer .app { padding: 15px 5px; width: 90%; color: #948c8e; background: #fff; margin: 10px 0;}
